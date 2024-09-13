@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parker Christiansen - Computer Expert</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            color: #f0f0f0;
+            background-color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #444;
+            color: #f0f0f0;
+            padding: 10px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        nav {
+            background: #555;
+            color: #f0f0f0;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav a {
+            color: #87CEFA;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.2em;
+        }
+        section {
+            padding: 20px;
+        }
+        h2 {
+            color: #87CEFA;
+        }
+        footer {
+            background: #444;
+            color: #f0f0f0;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .projects, .services {
+            margin-bottom: 20px;
+        }
+        .projects ul, .services ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .projects li, .services li {
+            background: #555;
+            margin-bottom: 10px;
+            padding: 10px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Parker Christiansen</h1>
+            <p>Computer Expert</p>
+        </div>
+    </header>
+    
+    <nav>
+        <div class="container">
+            <a href="#about">About Me</a>
+            <a href="#projects">Projects</a>
+            <a href="#services">Services</a>
+        </div>
+    </nav>
+    
+    <section id="about" class="container">
+        <h2>About Me</h2>
+        <p>Hello! I'm Parker Christiansen, a seasoned Computer Expert with a passion for solving complex technical problems and delivering innovative solutions. With years of experience in the industry, I specialize in a variety of computer-related services that cater to both individuals and businesses.</p>
+    </section>
+    
+    <section id="projects" class="container projects">
+        <h2>Projects</h2>
+        <ul>
+            <li>Project A: Description of Project A.</li>
+            <li>Project B: Description of Project B.</li>
+            <li>Project C: Description of Project C.</li>
+        </ul>
+    </section>
+    
+    <section id="services" class="container services">
+        <h2>Services</h2>
+        <ul>
+            <li>Service 1: Description of Service 1.</li>
+            <li>Service 2: Description of Service 2.</li>
+            <li>Service 3: Description of Service 3.</li>
+        </ul>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 Parker Christiansen</p>
+    </footer>
+</body>
+</html>
